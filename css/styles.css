@@ -371,6 +371,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item {
@@ -379,8 +381,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .clients-link {
@@ -388,9 +390,9 @@ body {
   border-radius: 4px;
   color: var(--lightslate, #8e8f99);
   padding: 16px 32px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  /*transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .clients-icon {
@@ -401,8 +403,6 @@ body {
 .clients-link:focus {
   color: var(--ocean, #404bbf);
   border: 1px solid var(--ocean, #404bbf);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-container {
