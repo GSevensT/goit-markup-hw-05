@@ -371,8 +371,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item {
@@ -381,8 +379,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link {
@@ -393,12 +391,12 @@ body {
   /*transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
   fill: currentColor;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -406,6 +404,10 @@ body {
   color: var(--ocean, #404bbf);
   border: 1px solid var(--ocean, #404bbf);
 }
+
+/* Portfolio page*/
+
+/* Filters section */
 
 .projects-container {
   display: flex;
@@ -419,10 +421,6 @@ body {
   gap: 24px;
   margin-bottom: 72px;
 }
-
-/* Portfolio page*/
-
-/* Filters section */
 
 .filter-button {
   border: 1px solid var(--cornflower, #e7e9fc);
